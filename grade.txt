@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() 
+{
+    float a,b,c,d,e,pr;
+    printf("Enter the marks of 5 subjects:\n");
+    scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+     pr= (a+b+c+d+e)/5;
+    
+    if(pr<=100 && pr>=90)
+    {
+     printf("grade : A");
+    }
+      else if(pr<90 && pr>=80)
+     {
+      printf("grade : B");
+     }
+     else  if(pr<80 && pr>=70)
+     {
+         printf("grade : C");
+     }
+     else 
+     {
+         printf("grade : D");
+     }
+      return 0;
+}
