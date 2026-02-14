@@ -1,0 +1,11 @@
+//program to covert the temperature in celsius to fahrenheit.
+#include<stdio.h>
+int main()
+{
+    float celsius,fahrn;
+    printf("Enter the temperature in celsius:\n");
+    scanf("%f",&celsius);
+    fahrn=(celsius*9/5)+32;
+    printf("The temperature in fahrn is:%f\n",fahrn);
+    return 0;
+}
