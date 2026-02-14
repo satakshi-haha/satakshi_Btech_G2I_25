@@ -1,0 +1,13 @@
+#include <stdio.h>
+//program to print the marks,sum and percentage.
+int main()
+{
+    float a,b,c,d,e,sum,pr;
+    printf("Enter the marks of 5 subjects:\n");
+    scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+    sum= a+b+c+d+e;
+    printf("The sum is %f\n",sum);
+    pr=sum/5;
+    printf("The percentage is %f\n",pr);
+    return 0;
+}
