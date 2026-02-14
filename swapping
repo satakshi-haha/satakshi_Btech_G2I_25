@@ -1,0 +1,14 @@
+//program to swap the 2 values without using a 3rd variable.
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter the numbers:\n");
+    scanf("%d%d",&a,&b);
+     a=a+b;
+     b=a-b;
+     a=a-b;
+    printf("The value of a is:%d\n",a);
+    printf("The value of b is:%d\n",b);
+    return 0;
+}
