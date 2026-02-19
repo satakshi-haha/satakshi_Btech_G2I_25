@@ -1,0 +1,23 @@
+//sum of even and odd numbers upto n number.
+#include <stdio.h>
+int main()
+{
+    int i,j,seven=0,sodd=0;
+    printf("Enter the number:\t");
+    scanf("%d",&i);
+    
+    for(j=0;j<=i;j++)
+    {
+        if(j%2==0)
+        {
+            seven=seven+j;
+        }
+        else
+        {
+            sodd=sodd+j;
+        }
+    }
+    printf("The sum of even no.s is : %d \t",seven);
+    printf("The sum of odd no.s is : %d \t",sodd);
+    return 0;
+}
