@@ -1,0 +1,22 @@
+// (x^y) without using math.pow(x,y)
+#include <stdio.h>
+
+int main() 
+{
+  int x,y,result=1;
+ 
+  printf("Enter the number:\n");
+  scanf("%d",&x);
+   printf("Enter the power:\n");
+  scanf("%d",&y);
+  while(y!=0)
+  {
+      result*=x;
+      y--;
+  }
+  printf("the value is : %d",result);
+  
+  return 0;
+}
+
+ 
