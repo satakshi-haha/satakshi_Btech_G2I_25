@@ -1,0 +1,25 @@
+// fibonacci series.
+#include <stdio.h>
+
+int main() 
+{
+  int a,b,c,i,n;
+ 
+  printf("Enter the value of n to print fibonacci series:\n");
+  scanf("%d",&n);
+   
+  a=0;
+  b=1;
+  c=0;
+  for(i=1;i<=n;i++)
+  {
+      printf("%d \t",c);
+      a=b;
+      b=c;
+      c=a+b;
+  }
+  
+  return 0;
+}
+
+ 
